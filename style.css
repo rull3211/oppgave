@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.boardWrapper{
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ned{
+    position: relative;
+}
+
+.opp{
+    position: absolute;
+}
+
+#pic{
+    width: 12rem;
+    height: 12rem;
+}
+#picCover{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(177, 5, 5);
+    width: 12rem;
+    height: 12rem;
+    background-color: black;
+    z-index: 1;
+}
+
+.row div:focus{   
+    background-color: rgb(53, 52, 52) !important;
+}
+.row div:hover{   
+    background-color: rgb(53, 52, 52) !important;
+}
+
+.endScreen{
+    height: 8rem;
+    width: 16rem;
+    background-color: aqua;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid;
+    
+    color: white;
+}
+.endScreen > p {
+    margin-left: 1cm;
+}
+.restartButton{
+    border: solid 1px;
+    background-color: #3fbdd6;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+}
+
+
+
+
+
+
+
+/* Bilder og coverfjerner*/
+.open{
+    opacity: 0 !important;
+}
+.pic0{
+    content: url("./bildeRes/bilde1.jpg");
+}
+.pic1{
+    content: url("./bildeRes/bilde2.jpg");
+
+}
+.pic2{
+    content: url("./bildeRes/bilde3.jpg");
+
+}
+.pic3{
+    content: url("./bildeRes/bilde4.jpg");
+
+}
+.pic4{
+    content: url("./bildeRes/bilde5.jpg");
+
+}
+.pic5{
+    content: url("./bildeRes/bilde6.jpg");
+
+}
+.pic6{
+    content: url("./bildeRes/bilde7.jpg");
+
+}
+.pic7{
+    content: url("./bildeRes/bilde8.jpg");
+
+}
